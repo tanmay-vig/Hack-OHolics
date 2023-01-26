@@ -30,6 +30,22 @@ function Cards() {
                     </ul>
 
 
+ <ul className='cards__items'>
+                        <CardItem
+                            src={pic2}
+                            text="Finds the false and fraud conditions in the T&C"
+                            label='T&C Frauds Checker'
+                            path='/t&cfraud'
+                        />
+                        <CardItem
+                            src={pic2}
+                            text="Checks whether the sms are fraud or not"
+                            label='Checks the Sms'
+                            path='/smsfraud'
+                        />
+                    </ul>
+
+
                 </div>
 
             </div>
