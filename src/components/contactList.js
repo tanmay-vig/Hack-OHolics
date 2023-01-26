@@ -46,14 +46,9 @@ const contactList = (props) => {
 
             </div>
 
-            {(() => {
+         
 
-
-                // if (renderContactList.length > 0) return renderContactList;
-
-                // if (renderContactList.length == 0) return "<b>OOPS!!! Not in our dataset  :(  Probabaly Fishy Website  We will soon Expand our Dataset</b>";
-
-                // })()}
+               
 
                 { renderContactList.length > 0 ? renderContactList : <b>OOPS!!! Not in our dataset  :(  Probabaly Fishy Website  We will soon Expand our Dataset</b> }
 
