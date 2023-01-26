@@ -3,12 +3,13 @@ import CardItem from './CardItem'
 import './Cards.css'
 import pic1 from '../images/contract.jpg'
 import pic2 from '../images/link.jpg'
-
+import pic3 from '../images/t&c_fraud.jpg'
+import pic4 from '../images/fake_sms.jpg'
 
 function Cards() {
     return (
         <div className='cards'>
-            <h1>Bla Bla Bla</h1>
+            <h1>Tools</h1>
 
             <div className='cards__container'>
                 <div className='cards__wrapper'>
@@ -30,15 +31,15 @@ function Cards() {
                     </ul>
 
 
- <ul className='cards__items'>
+                    <ul className='cards__items'>
                         <CardItem
-                            src={pic2}
+                            src={pic3}
                             text="Finds the false and fraud conditions in the T&C"
                             label='T&C Frauds Checker'
                             path='/t&cfraud'
                         />
                         <CardItem
-                            src={pic2}
+                            src={pic4}
                             text="Checks whether the sms are fraud or not"
                             label='Checks the Sms'
                             path='/smsfraud'

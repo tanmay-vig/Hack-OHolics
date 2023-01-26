@@ -4,7 +4,11 @@ import uuid from 'react-uuid';
 import Header from './Header';
 import Navbar from './Navbar';
 import Home from './pages/Home';
-
+import Tcf from './features/t_c_fraud'
+import SmsFraud from './features/smsfraud'
+import TcP from './features/t_c_p'
+import NFT from './features/nft'
+import Tcc from './features/t_c_c'
 import ContactList from './contactList';
 
 
@@ -96,9 +100,11 @@ function App() {
             path="/"
             element={<Home />}
           ></Route>
-
-
-
+          <Route path="/t&cfraud" element={<Tcf />} />
+          <Route path="/smsfraud" element={<SmsFraud />} />
+          <Route path="/t&c" element={<TcP />} />
+          <Route path="/t&cconsultancy" element={ <Tcc />} />
+          <Route path="/nft" element={<NFT />} />
         </Routes>
 
 

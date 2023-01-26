@@ -1,14 +1,14 @@
 import React from 'react'
 import CardItem from './CardItem'
 import './Facilities.css'
-import pic1 from '../images/contract.jpg'
-import pic2 from '../images/link.jpg'
+import pic1 from '../images/tc-consulting.jpg'
+import pic2 from '../images/NFT.jpg'
 
 
 function Facilities() {
     return (
         <div className='cards'>
-            <h1>Bla Bla Bla</h1>
+            <h1>Products</h1>
 
             <div className='cards__container'>
                 <div className='cards__wrapper'>
@@ -17,13 +17,13 @@ function Facilities() {
                             src={pic1}
                             text="Terms and Conditions Processor - Gives you processed summary and main keywords of your agreements and contracts  "
                             label='T&C PROCESSOR'
-                            path='/t&c'
+                            path='/t&cconsultancy'
                         />
                         <CardItem
                             src={pic2}
                             text="Authenticate Website urls and find whether they are fishy or Safe"
                             label='Authenticate your links'
-                            path='/services'
+                            path='/nft'
                         />
 
 
