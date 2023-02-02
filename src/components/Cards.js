@@ -14,15 +14,15 @@ function Cards() {
             <div className='cards__container'>
                 <div className='cards__wrapper'>
                     <ul className='cards__items'>
+                        
                         <CardItem
                             src={pic1}
-                            text="Terms and Conditions Processor - Gives you processed summary and main keywords of your agreements and contracts  "
+                            text= <a href='http://127.0.0.1:5000'>Authenticate Website urls and find whether they are fishy or Safe</a>
                             label='T&C PROCESSOR'
-                            path='/t&c'
                         />
                         <CardItem
                             src={pic2}
-                            text="Authenticate Website urls and find whether they are fishy or Safe"
+                            text=" Authenticate Website urls and find whether they are fishy or Safe"
                             label='Authenticate your links'
                             path='/services'
                         />
@@ -45,8 +45,6 @@ function Cards() {
                             path='/smsfraud'
                         />
                     </ul>
-
-
                 </div>
 
             </div>
