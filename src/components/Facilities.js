@@ -2,7 +2,7 @@ import React from 'react'
 import CardItem from './CardItem'
 import './Facilities.css'
 import pic1 from '../images/tc-consulting.jpg'
-import pic2 from '../images/NFT.jpg'
+import pic2 from '../images/t2.jpg'
 
 
 function Facilities() {
@@ -15,15 +15,15 @@ function Facilities() {
                     <ul className='cards__items'>
                         <CardItem
                             src={pic1}
-                            text="Terms and Conditions Processor - Gives you processed summary and main keywords of your agreements and contracts  "
-                            label='T&C PROCESSOR'
+                            text="Terms and Conditions Formation - Makes Terms and condition for you "
+                            label='T&C Formation'
                             path='/t&cconsultancy'
                         />
                         <CardItem
                             src={pic2}
-                            text="Authenticate Website urls and find whether they are fishy or Safe"
-                            label='Authenticate your links'
-                            path='/nft'
+                            text="Formulate your the Terms and Condition"
+                            label='T&C Formulation'
+                            path='/t&cf'
                         />
 
 
