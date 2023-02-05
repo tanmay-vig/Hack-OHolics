@@ -2,10 +2,6 @@ import React, { useState, useEffect } from 'react';
 import './App.css';
 import Navbar from './Navbar';
 import Home from './pages/Home';
-import Tcf from './features/t_c_fraud'
-import SmsFraud from './features/smsfraud'
-import NFT from './features/nft'
-import Tcc from './features/t_c_c'
 import ContactList from './contactList';
 
 
@@ -97,11 +93,9 @@ function App() {
             path="/"
             element={<Home />}
           ></Route>
-          <Route path="/t&cfraud" element={<Tcf />} />
-          <Route path="/smsfraud" element={<SmsFraud />} />
+          
 
-          <Route path="/t&cconsultancy" element={ <Tcc />} />
-          <Route path="/nft" element={<NFT />} />
+          
         </Routes>
 
 
