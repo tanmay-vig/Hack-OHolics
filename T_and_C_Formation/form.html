@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="form.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    function passvalues1() {
+        var firstname = document.getElementById("txt").value;
+        localStorage.setItem("textvalue", firstname);
+        return false;
+    }
+    function passvalues2() {
+        var lastname = document.getElementById("txt2").value;
+        localStorage.setItem("textvalue2", lastname);
+        return false;
+    }
+    function passvalues3() {
+        var lastname = document.getElementById("txt3").value;
+        localStorage.setItem("textvalue3", lastname);
+        return false;
+    }
+    function passvalues4() {
+        var lastname = document.getElementById("txt4").value;
+        localStorage.setItem("textvalue4", lastname);
+        return false;
+    }
+    function passvalues5() {
+        var lastname = document.getElementById("txt5").value;
+        localStorage.setItem("textvalue5", lastname);
+        return false;
+    }
+    function passvalues6() {
+        var lastname = document.getElementById("txt6").value;
+        localStorage.setItem("textvalue6", lastname);
+        return false;
+    }
+    function passvalues7() {
+        var lastname = document.getElementById("txt7").value;
+        localStorage.setItem("textvalue7", lastname);
+        return false;
+    }
+    function passvalues8() {
+        var lastname = document.getElementById("txt8").value;
+        localStorage.setItem("textvalue8", lastname);
+        return false;
+    }
+    function passvalues9() {
+        var lastname = document.getElementById("txt9").value;
+        localStorage.setItem("textvalue9", lastname);
+        return false;
+    }
+    function passvalues10() {
+        var lastname = document.getElementById("txt10").value;
+        localStorage.setItem("textvalue10", lastname);
+        return false;
+    }
+</script>
+
+<body>
+    <h1>Fill the form to Generate Policy / T&C</h1>
+
+    <div class="container">
+
+
+        <form action="dest.html">
+
+            <label for="" class="user-in">Company Name:</label><br>
+            <input type="text" id="txt" /><br><br>
+            <label for="" class="user-in">What will this Privacy Policy be used for type W for website A for
+                app?</label><br>
+            <input type="text" id="txt2" /><br><br>
+            <label for="" class="user-in">What is the URL address of your website?</label><br />
+            <input type="text" id="txt3"><br><br>
+            <label for="" class="user-in">Can users create an account or register with your website type WILL BE or WONT
+                BE?</label><br>
+            <input type="txt" id="txt4"><br><br>
+            <label for="" class="user-in">Policy Effective Date:</label><br>
+            <input type="date" name="DOB" id="txt5"><br><br />
+            <label for="" class="user-in">Do you target users under the age of 18? type WILL BE or WONT BE? </label><br>
+            <input type="txt" id="txt6"><br><br>
+            <label for="" class="user-in">Do you collect sensitive information? type WILL BE or WONT BE?</label><br>
+            <input type="txt" id="txt7"><br><br>
+            <label for="" class="user-in">Are users allwoed to post content on your website? type WILL BE or WONT BE?</<
+                    /label><br>
+                <input type="text" id="txt8"><br><br>
+                <label for="" class="user-in">Do you have any prohibitted activity on your website?</label><br>
+                <input type="textarea" id="txt9"><br><br>
+                <input type="submit" 
+                    onclick="passvalues1(),passvalues2(),passvalues3(),passvalues4(),passvalues5(),passvalues6(),passvalues7(),passvalues8(),passvalues9();" />
+
+
+
+        </form>
+    </div>
+
+</body>
+
+
+</html>
